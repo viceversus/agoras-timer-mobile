@@ -9,7 +9,7 @@ Write your React Native app using ES7+ with Webpack and Babel.
 
 ![React Native Webpack Starter Kit](https://dl.dropboxusercontent.com/u/10150480/rn-starter-kit-hero-wordswag.jpg)
 
-Inverts control away from RN build system. Takes a minimalistic lean on tooling to provide a minimal seed. Follows the latest React Native stable release. Uses Babel 6 for ES6-style JSX transpilation with ES7 Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser.
+Provides RN build pipeline with minimal dependencies. Follows the latest React Native stable release (anticipate red for trailing React releases in David as a result). Uses Babel 6 for ES6-style JSX transpilation with ES7 Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser.
 
 Leverages [`react-native-webpack-server`](https://github.com/mjohnston/react-native-webpack-server). Incorporates sane default linting rules. Uses [Greenkeeper](https://github.com/greenkeeperio/greenkeeper) to help keep dependencies fresh. Unprescriptive in terms of test frameworks and Flux implementations. Use with [EditorConfig](http://editorconfig.org/) to help code consistency between editors. Try with [`webpack-notifier`](https://github.com/Turbo87/webpack-notifier) for desktop notifications on OS X. Promotes use of functional stateless React components.
 
@@ -18,17 +18,17 @@ This kit was originally used to build, and later extracted from, [Lumpen Radio].
 ## Requirements
 
 - [Node](https://nodejs.org) 4.x or better
-- [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
-- [Xcode](https://developer.apple.com/xcode/) for iOS development (optional)
-- [Android SDK](https://developer.android.com/sdk/) for Android development (optional)
-- [Android Lollipop](https://www.android.com/versions/lollipop-5-0/) or better for Android device testing (optional)
+- [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for basic support
+- [Xcode](https://developer.apple.com/xcode/) for iOS development
+- [Android SDK](https://developer.android.com/sdk/) for Android development
+- [Android Lollipop](https://www.android.com/versions/lollipop-5-0/) or better for Android device testing
 
 ## Stack
 
 - [React Native](http://facebook.github.io/react-native/) for native app development
 - [Babel](http://babeljs.io/) for ES6+ support
 - [Webpack](https://webpack.github.io/) module loader and bundler
-- [Docker](https://www.docker.com/) and [VirtualBox](https://www.virtualbox.org) for Windows-based development
+- [Docker](https://www.docker.com/) for containerized development
 
 ## Installation
 
@@ -40,7 +40,7 @@ git clone -o upstream -b master --single-branch \
 npm i
 ```
 
-See [Using with Docker](#using-with-docker) for experimental Windows setup.
+See [Using with Docker](#using-with-docker) for Docker setup.
 
 ## Running
 
@@ -95,12 +95,14 @@ Please see [Submitting to App Store](http://habd.as/reflecting-on-react-native-d
 
 **Status:** Experimental.
 
-Windows users may experience problems with React Native development. This kit includes a `Dockerfile` which can be used to create a virtualized development environment for building your app on a Windows machine. To use it [set-up Docker Machine](https://docs.docker.com/machine/get-started/) then run the following commands with [cmder](http://cmder.net/) (or similar) to get going:
+Windows users may experience problems with React Native development. This kit includes a `Dockerfile` which can be used to create a virtualized development environment for building your app on a Windows machine while we wait for official support. To use it [set-up Docker Machine](https://docs.docker.com/machine/get-started/) then run the following commands with [cmder](http://cmder.net/) (or similar) to get going:
 
 1. Clone this repo then update `.watchmanconfig` to the following: `{"ignore_dirs": ["node_modules"]}`.
 1. Run `docker build --rm .` command from the project root directory to build a virtualized Linunx environment configured for development using this starter kit.
 1. Get the ID of the built Docker image by running `docker images` and looking for the most recently created image.
 1. Then shell into the box with `docker run -it 09608e4ec865 /bin/bash` (where `09608e4ec865` is the Image ID) and run the app with `npm start`.
+
+OSX users are encouraged to use [dlite](https://github.com/nlf/dlite) for their Docker dev environment setup.
 
 If iOS and Android device emulators are not available for your development environment (anything except OS X, basically) consider shipping code directly to a native device using [Exponent](https://exponentjs.com/).
 
