@@ -41,8 +41,6 @@ git clone -o upstream -b master --single-branch \
 npm i
 ```
 
-See [Using with Docker](#using-with-docker) for Docker setup.
-
 ## Running
 
 Once dependencies are installed, run the starter kit with:
