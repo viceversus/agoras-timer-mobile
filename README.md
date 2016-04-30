@@ -16,7 +16,7 @@ This kit was originally used to build and ship, and later extracted from, [Lumpe
 
 - Manages asset pipeline using [Webpack](http://webpack.github.io/)
 - Dynamically generates JS bundles using [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
-- Monitors security with [Snyk](https://snyk.io/)
+- Monitors dependency vulnerabilities with [Snyk](https://snyk.io/)
 - Keeps dependencies fresh using [Greenkeeper](https://greenkeeper.io/)
 - Provides static code analysis with [ESLint](http://eslint.org/)
 - Aids code consistency using [EditorConfig](http://editorconfig.org/)
