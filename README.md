@@ -77,14 +77,14 @@ If you run into any issues please see the [Getting Started](http://facebook.gith
 
 **Status:** Experimental.
 
-Windows users may experience problems with React Native development. This kit includes a `Dockerfile` which can be used to create a virtualized development environment for building your app on a Windows machine while we wait for official support. To use it [set-up Docker Machine](https://docs.docker.com/machine/get-started/) then run the following commands with [cmder](http://cmder.net/) (or similar) to get going:
+This kit includes a `Dockerfile` which can be used to create a virtualized development environment for building your app on a Windows machine while [official support](https://blogs.windows.com/buildingapps/2016/04/13/react-native-on-the-universal-windows-platform/) is added. To use it [set-up Docker Machine](https://docs.docker.com/machine/get-started/) then run the following commands with [cmder](http://cmder.net/) (or similar) to get going:
 
 1. Clone this repo then update `.watchmanconfig` to the following: `{"ignore_dirs": ["node_modules"]}`.
 1. Run `docker build --rm .` command from the project root directory to build a virtualized Linunx environment configured for development using this starter kit.
 1. Get the ID of the built Docker image by running `docker images` and looking for the most recently created image.
 1. Then shell into the box with `docker run -it 09608e4ec865 /bin/bash` (where `09608e4ec865` is the Image ID) and run the app with `npm start`.
 
-OSX users are encouraged to use [dlite](https://github.com/nlf/dlite) for their Docker dev environment setup.
+OS X users are encouraged to use [dlite](https://github.com/nlf/dlite) for their Docker dev environment setup.
 
 If iOS and Android device emulators are not available for your development environment (anything except OS X, basically) consider shipping code directly to a native device using [Exponent](https://exponentjs.com/).
 
