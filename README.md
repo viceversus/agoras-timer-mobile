@@ -94,7 +94,7 @@ Webpack is configured with a pre-loader to lint the application with ESLint usin
 
 ## Bundling
 
-Building the app for distribution.
+To bundle the app for distribution for both iOS and Android:
 
 1. Execute `npm run bundle` to generate the [offline JS bundle](https://facebook.github.io/react-native/docs/running-on-device-ios.html#using-offline-bundle).
 1. For iOS, update `AppDelegate.m` to load from pre-bundled file on disk.
