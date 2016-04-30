@@ -1,7 +1,6 @@
 # react-native-webpack-starter-kit
 
 [![Build Status](https://travis-ci.org/jhabdas/react-native-webpack-starter-kit.svg?branch=master)](https://travis-ci.org/jhabdas/react-native-webpack-starter-kit)
-[![Dependency Status](https://david-dm.org/jhabdas/react-native-webpack-starter-kit.svg)](https://david-dm.org/jhabdas/react-native-webpack-starter-kit)
 [![devDependency Status](https://david-dm.org/jhabdas/react-native-webpack-starter-kit/dev-status.svg)](https://david-dm.org/jhabdas/react-native-webpack-starter-kit#info=devDependencies)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/jhabdas/react-native-webpack-starter-kit)
 
@@ -9,7 +8,7 @@ Write your React Native app using ES7+ with Webpack and Babel.
 
 ![React Native Webpack Starter Kit](https://dl.dropboxusercontent.com/u/10150480/rn-starter-kit-hero-wordswag.jpg)
 
-Provides RN build pipeline with minimal dependencies. Follows the latest React Native stable release (anticipate red for trailing React releases in David as a result). Uses Babel 6 for ES6-style JSX transpilation with ES7 Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser.
+Provides RN build pipeline with minimal dependencies. Follows the latest React Native stable release. Uses Babel 6 for ES6-style JSX transpilation with ES7 Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser.
 
 Leverages [`react-native-webpack-server`](https://github.com/mjohnston/react-native-webpack-server). Incorporates sane default linting rules. Uses [Greenkeeper](https://github.com/greenkeeperio/greenkeeper) to help keep dependencies fresh. Unprescriptive in terms of test frameworks and Flux implementations. Use with [EditorConfig](http://editorconfig.org/) to help code consistency between editors. Try with [`webpack-notifier`](https://github.com/Turbo87/webpack-notifier) for desktop notifications on OS X. Promotes use of functional stateless React components.
 
