@@ -8,20 +8,22 @@ Write your React Native app using ES7+ with Webpack and Babel.
 
 ![React Native Webpack Starter Kit](https://dl.dropboxusercontent.com/u/10150480/rn-starter-kit-hero-wordswag.jpg)
 
-Provides cross-platform RN build pipeline with minimal dependencies. Follows the latest React Native stable release. Uses Babel 6 for ES6-style JSX transpilation with ES7 Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations.
+Provides cross-platform asset pipeline with minimal dependencies for building with React Native. Follows the latest React Native stable release. Uses Babel 6 for ES7 JavaScript transpilation with Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations. Additional features listed below.
 
 This kit was originally used to build and ship, and later extracted from, [Lumpen Radio].
 
 ## Features
 
-- Manages application using [Webpack](http://webpack.github.io/)
-- Dynamically generates application bundles using [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
-- Monitors application security with [Snyk](https://snyk.io/)
+- Manages asset pipeline using [Webpack](http://webpack.github.io/)
+- Dynamically generates JS bundles using [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
+- Monitors security with [Snyk](https://snyk.io/)
 - Keeps dependencies fresh using [Greenkeeper](https://greenkeeper.io/)
 - Provides static code analysis with [ESLint](http://eslint.org/)
 - Aids code consistency using [EditorConfig](http://editorconfig.org/)
 - Integrates with [`webpack-notifier`](https://github.com/Turbo87/webpack-notifier) for desktop notifications on OS X
 - Continuous integration with [Travis](https://travis-ci.org)
+
+Live Reload is not configured for this kit. See [react-native-webpack-server/issues/103](https://github.com/mjohnston/react-native-webpack-server/issues/103) for more information.
 
 ## Requirements
 
@@ -37,19 +39,18 @@ Clone repo and install dependencies once your [environment is set-up](https://fa
 
 ```sh
 git clone -o upstream -b master --single-branch \
-    https://github.com/jhabdas/react-native-webpack-starter-kit.git native-starter-kit && cd $_
-npm i
+    https://github.com/jhabdas/react-native-webpack-starter-kit.git native-starter-kit && cd $_ && npm i
 ```
 
 ## Running
 
-Once dependencies are installed, run the starter kit with:
+Once project cloned and dependencies installed, run it with:
 
 ```sh
 npm start
 ```
 
-This will start the React Packager and a [Webpack Dev Server](https://github.com/webpack/webpack-dev-server). The dev server will watch your JS files for changes and automatically lint and generate the `index.[platform].js` files expected by your React Native iOS or Android app.
+This will start the React Packager and a [Webpack Dev Server](https://github.com/webpack/webpack-dev-server). The dev server will watch your JS files for changes, automatically linting your code as you iterate. Additionally, the dev server will and generate the `index.[platform].js` files expected by your React Native iOS or Android app, allowing you the freedom to build 
 
 ### iOS
 
