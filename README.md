@@ -88,9 +88,9 @@ If iOS and Android device emulators are not available for your development envir
 
 ## Testing
 
-As a minimalist seed this project does not introduce a testing framework. Instead it leverages simple static code analysis to help prevent coding mistakes and introduce some good practices for building React Native apps with ES6 and ES7.
+As a minimalist seed this project does not introduce a testing framework. Instead it leverages simple static code analysis to help prevent coding mistakes and introduce some patterns for building React Native apps with ES2015 and ES7 with a _functional mindset_ inspired by the [Elm architecture](https://github.com/evancz/elm-architecture-tutorial/) and functional React alternatives like [Deku](https://segment.com/blog/deku-our-functional-alternative-to-react/).
 
-Webpack is configured with a pre-loader to lint the application with ESLint using the Babel parser during app development. And the `npm lint` command may be run at anytime to lint source code otherwise. See the `.eslintrc` file to adjust [linter rules](http://eslint.org/docs/rules/) to your liking.
+Webpack is configured with a pre-loader to lint the application with ESLint using the Babel parser during app development. And the `npm lint` command may be run at anytime to lint source code otherwise. See the `.eslintrc` file to adjust [linter rules](http://eslint.org/docs/rules/) to your liking. Or run `npm test` to lint the application and scan its dependencies it for known security vulnerabilities.
 
 ## Bundling
 
