@@ -73,7 +73,7 @@ react-native run-android
 
 If you run into any issues please see the [Getting Started](http://facebook.github.io/react-native/docs/getting-started.html) guide for React Native before submitting an issue.
 
-## Docker
+### Docker
 
 **Status:** Experimental.
 
