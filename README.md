@@ -21,7 +21,7 @@ This kit was originally used to build and ship, and later extracted from, [Lumpe
 - Provides static code analysis with [ESLint](http://eslint.org/)
 - Aids code consistency using [EditorConfig](http://editorconfig.org/)
 - Integrates with [`webpack-notifier`](https://github.com/Turbo87/webpack-notifier) for desktop notifications on OS X
-- Continuous integration with [Travis](https://travis-ci.org)
+- Example CI service integration using [Travis](https://travis-ci.org)
 
 Live Reload is not configured for this kit. See [react-native-webpack-server/issues/103](https://github.com/mjohnston/react-native-webpack-server/issues/103) for more information.
 
