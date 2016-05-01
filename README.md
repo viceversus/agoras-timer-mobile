@@ -50,7 +50,7 @@ Once project cloned and dependencies installed, run it with:
 npm start
 ```
 
-This will start the React Packager and a [Webpack Dev Server](https://github.com/webpack/webpack-dev-server). The dev server will watch your JS files for changes, automatically linting your code as you iterate. Additionally, the dev server will and generate the `index.[platform].js` files expected by your React Native iOS or Android app, allowing you the freedom to build 
+This will start the React Packager and a [Webpack Dev Server](https://github.com/webpack/webpack-dev-server). The dev server will watch your JS files for changes, automatically linting your code as you iterate. Additionally, the dev server will generate the `index.[platform].js` files expected by your React Native iOS or Android app, allowing you the freedom to build 
 
 ### iOS
 
