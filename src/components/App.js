@@ -2,14 +2,14 @@
  * React Native Webpack Starter Kit
  * https://github.com/jhabdas/react-native-webpack-starter-kit
  */
-import React, { Component, PropTypes } from 'react-native'
+import React, { Component, PropTypes } from 'react'
 
-const {
+import {
   Platform,
   StyleSheet,
   Text,
   View,
-} = React
+} from 'react-native'
 
 const App = ({
   instructions,
