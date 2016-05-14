@@ -1,5 +1,9 @@
 # DOCKER-VERSION 1.8.2
 
+#
+# React Native Webpack Starter Kit
+# https://github.com/jhabdas/react-native-webpack-starter-kit
+#
 # Demonstrates use of Starter Kit in a virtualized Linux development environment.
 # Helps enable React Native development for Windows. OS X workflows also possible.
 
