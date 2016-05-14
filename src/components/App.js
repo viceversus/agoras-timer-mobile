@@ -1,7 +1,3 @@
-/**
- * React Native Webpack Starter Kit
- * https://github.com/jhabdas/react-native-webpack-starter-kit
- */
 import React, { Component, PropTypes } from 'react'
 
 import {
@@ -13,7 +9,7 @@ import {
 
 const App = ({
   instructions,
-}) =>
+}) => (
   <View style={styles.container}>
     <Text style={styles.welcome}>
       Welcome to React Native!
@@ -25,6 +21,7 @@ const App = ({
       {instructions}
     </Text>
   </View>
+)
 
 App.propTypes = {
   instructions: PropTypes.string,
