@@ -5,7 +5,7 @@
 [![devDependency Status](https://david-dm.org/jhabdas/react-native-webpack-starter-kit/dev-status.svg)](https://david-dm.org/jhabdas/react-native-webpack-starter-kit#info=devDependencies)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/jhabdas/react-native-webpack-starter-kit)
 
-Start your React Native with Webpack and Babel.
+Grow your React Native app with Webpack and Babel.
 
 ![React Native Webpack Starter Kit](https://dl.dropboxusercontent.com/u/10150480/rn-starter-kit-hero-wordswag.jpg)
 
