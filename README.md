@@ -9,12 +9,14 @@ Grow your React Native app with Webpack and Babel.
 
 ![React Native Webpack Starter Kit](https://dl.dropboxusercontent.com/u/10150480/rn-starter-kit-hero-wordswag.jpg)
 
-Provides asset pipeline with minimal dependencies for building with React Native. Follows the latest React Native stable release. Uses Babel 6 for ES7 JavaScript transpilation with Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations. Additional features listed below.
+Asset pipeline for scalable apps built with React Native. Uses Babel 6 for ES7 JavaScript transpilation with Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations. Additional features listed below.
 
 This kit was originally used to build and ship, and later extracted from, [Lumpen Radio].
 
 ## Features
 
+- Minimal dependencies
+- Follows the latest React Native stable release
 - Manage assets using [Webpack](http://webpack.github.io/)
 - Dynamically generates JS bundles using [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
 - Provides static code analysis with [ESLint](http://eslint.org/)
@@ -23,8 +25,6 @@ This kit was originally used to build and ship, and later extracted from, [Lumpe
 - Aids code consistency using [EditorConfig](http://editorconfig.org/)
 - Integrates with [`webpack-notifier`](https://github.com/Turbo87/webpack-notifier) for desktop notifications on OS X
 - Example CI service integration using [Travis](https://travis-ci.org)
-
-Live Reload is not configured for this kit. Please see [react-native-webpack-server/issues/103](https://github.com/mjohnston/react-native-webpack-server/issues/103) for more info.
 
 ## Requirements
 
@@ -42,6 +42,8 @@ Clone repo and install dependencies once your [environment is set-up](https://fa
 git clone -o upstream -b master --single-branch \
     https://github.com/jhabdas/react-native-webpack-starter-kit.git native-starter-kit && cd $_ && npm i
 ```
+
+For information on HMR support see [react-native-webpack-server/issues/103](https://github.com/mjohnston/react-native-webpack-server/issues/103).
 
 ## Running
 
