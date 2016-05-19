@@ -1,29 +1,30 @@
 # react-native-webpack-starter-kit
 
 [![Build Status](https://travis-ci.org/jhabdas/react-native-webpack-starter-kit.svg?branch=master)](https://travis-ci.org/jhabdas/react-native-webpack-starter-kit)
+[![Dependency Status](https://david-dm.org/jhabdas/react-native-webpack-starter-kit.svg)](https://david-dm.org/jhabdas/react-native-webpack-starter-kit)
 [![devDependency Status](https://david-dm.org/jhabdas/react-native-webpack-starter-kit/dev-status.svg)](https://david-dm.org/jhabdas/react-native-webpack-starter-kit#info=devDependencies)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/jhabdas/react-native-webpack-starter-kit)
 
-Write your React Native app using ES7+ with Webpack and Babel.
+Start your React Native with Webpack and Babel.
 
 ![React Native Webpack Starter Kit](https://dl.dropboxusercontent.com/u/10150480/rn-starter-kit-hero-wordswag.jpg)
 
-Provides cross-platform asset pipeline with minimal dependencies for building with React Native. Follows the latest React Native stable release. Uses Babel 6 for ES7 JavaScript transpilation with Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations. Additional features listed below.
+Provides asset pipeline with minimal dependencies for building with React Native. Follows the latest React Native stable release. Uses Babel 6 for ES7 JavaScript transpilation with Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations. Additional features listed below.
 
 This kit was originally used to build and ship, and later extracted from, [Lumpen Radio].
 
 ## Features
 
-- Manages asset pipeline using [Webpack](http://webpack.github.io/)
+- Manage assets using [Webpack](http://webpack.github.io/)
 - Dynamically generates JS bundles using [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
-- Monitors dependency vulnerabilities with [Snyk](https://snyk.io/)
-- Keeps dependencies fresh using [Greenkeeper](https://greenkeeper.io/)
 - Provides static code analysis with [ESLint](http://eslint.org/)
+- Keeps dependencies fresh using [Greenkeeper](https://greenkeeper.io/)
+- Monitors dependency vulnerabilities with [Snyk](https://snyk.io/)
 - Aids code consistency using [EditorConfig](http://editorconfig.org/)
 - Integrates with [`webpack-notifier`](https://github.com/Turbo87/webpack-notifier) for desktop notifications on OS X
 - Example CI service integration using [Travis](https://travis-ci.org)
 
-Live Reload is not configured for this kit. See [react-native-webpack-server/issues/103](https://github.com/mjohnston/react-native-webpack-server/issues/103) for more information.
+Live Reload is not configured for this kit. Please see [react-native-webpack-server/issues/103](https://github.com/mjohnston/react-native-webpack-server/issues/103) for more info.
 
 ## Requirements
 
@@ -50,7 +51,7 @@ Once project cloned and dependencies installed, run it with:
 npm start
 ```
 
-This will start the React Packager and a [Webpack Dev Server](https://github.com/webpack/webpack-dev-server). The dev server will watch your JS files for changes, automatically linting your code as you iterate. Additionally, the dev server will generate the `index.[platform].js` files expected by your React Native iOS or Android app, allowing you the freedom to build 
+This will start the React Packager and a [Webpack Dev Server](https://github.com/webpack/webpack-dev-server). The dev server will watch your JS files for changes, automatically linting your code as you iterate. Additionally, the dev server will generate the `index.[platform].js` files expected by your React Native iOS or Android app, allowing you the freedom to build
 
 ### iOS
 
