@@ -32,6 +32,13 @@
     "npm": ">=2 <4"
   },
   "dependencies": {
+    "decompress": "^3.0.0",
+    "download": "^4.4.3",
+    "fbjs-scripts": "^0.7.0",
+    "findup-sync": "^0.3.0",
+    "globby": "^4.1.0",
+    "jstransform": "^11.0.3",
+    "mem-fs-editor": "^2.2.1",
     "react": "~15.1.0",
     "react-native": "^0.27.2",
     "snyk": "^1.14.3"
