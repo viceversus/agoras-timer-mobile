@@ -87,7 +87,7 @@ This kit includes a `Dockerfile` which can be used to create a virtualized devel
 1. Get the ID of the built Docker image by running `docker images` and looking for the most recently created image.
 1. Then shell into the box with `docker run -it 09608e4ec865 /bin/bash` (where `09608e4ec865` is the Image ID) and run the app with `npm start`.
 
-If iOS and Android device emulators are not available for your development environment (anything except OS X, basically) consider shipping code directly to a native device using [Exponent](https://exponentjs.com/) or [code-push-cli](https://www.npmjs.com/package/code-push-cli).
+If iOS and Android device emulators are not available for your development environment (anything except OS X, basically) consider shipping code directly to a native device using [Exponent](https://exponentjs.com/) or [CodePush](https://github.com/Microsoft/code-push).
 
 ## Testing
 
