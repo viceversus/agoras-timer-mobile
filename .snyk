@@ -2,5 +2,22 @@ patch:
   'npm:ws:20160104':
     - react-native > ws:
         patched: '2016-05-19T04:21:15.342Z'
-version: v1.4.0
-ignore: {}
+version: v1.5.0
+ignore:
+  'npm:minimatch:20160620':
+    - react-native > sane > minimatch:
+        reason: Remediation unavailable
+        expires: '2016-07-21T20:44:44.201Z'
+    - react-native > node-haste > sane > minimatch:
+        reason: Remediation unavailable
+        expires: '2016-07-21T20:44:44.201Z'
+    - snyk > recursive-readdir > minimatch:
+        reason: Remediation unavailable
+        expires: '2016-07-21T20:44:44.201Z'
+  'npm:negotiator:20160616':
+    - react-native > connect > compression > accepts > negotiator:
+        reason: Remediation unavailable
+        expires: '2016-07-21T20:44:44.202Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        reason: Remediation unavailable
+        expires: '2016-07-21T20:44:44.202Z'
