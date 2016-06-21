@@ -1,7 +1,7 @@
 patch:
   'npm:ws:20160104':
     - react-native > ws:
-        patched: '2016-05-19T04:21:15.342Z'
+        patched: '2016-06-21T20:59:17.302Z'
 version: v1.5.0
 ignore:
   'npm:minimatch:20160620':
