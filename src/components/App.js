@@ -7,21 +7,23 @@ import {
   View,
 } from 'react-native'
 
-const App = ({
+function App({
   instructions,
-}) => (
-  <View style={styles.container}>
-    <Text style={styles.welcome}>
-      Welcome to React Native!
-    </Text>
-    <Text style={styles.instructions}>
-      To get started, edit index.{Platform.OS}.js
-    </Text>
-    <Text style={styles.instructions}>
-      {instructions}
-    </Text>
-  </View>
-)
+}) {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.welcome}>
+        Welcome to React Native!
+      </Text>
+      <Text style={styles.instructions}>
+        To get started, edit index.{Platform.OS}.js
+      </Text>
+      <Text style={styles.instructions}>
+        {instructions}
+      </Text>
+    </View>
+  )
+}
 
 App.propTypes = {
   instructions: PropTypes.string,

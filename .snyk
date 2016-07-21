@@ -5,23 +5,25 @@ patch:
   'npm:minimatch:20160620':
     - react-native > fbjs-scripts > babel > chokidar > readdirp > minimatch:
         patched: '2016-06-21T21:14:43.486Z'
-      react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar > fstream > rimraf > glob > minimatch:
-        patched: '2016-06-21T21:29:28.282Z'
+      react-native > yeoman-generator > findup-sync > glob > minimatch:
+        patched: '2016-07-21T13:38:31.916Z'
     - react-native > yeoman-generator > findup-sync > glob > minimatch:
         patched: '2016-06-21T21:14:43.486Z'
-      react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > tar > fstream > rimraf > glob > minimatch:
-        patched: '2016-06-21T21:29:28.282Z'
     - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream-ignore > minimatch:
         patched: '2016-06-21T21:14:43.486Z'
-      react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream > rimraf > glob > minimatch:
-        patched: '2016-06-21T21:29:28.282Z'
     - react-native > fbjs-scripts > babel > babel-core > minimatch:
         patched: '2016-06-21T21:14:43.486Z'
-      react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream-ignore > fstream > rimraf > glob > minimatch:
-        patched: '2016-06-21T21:29:28.282Z'
     - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > rimraf > glob > minimatch:
         patched: '2016-06-21T21:29:28.282Z'
     - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > rimraf > glob > minimatch:
+        patched: '2016-06-21T21:29:28.282Z'
+    - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar > fstream > rimraf > glob > minimatch:
+        patched: '2016-06-21T21:29:28.282Z'
+    - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > tar > fstream > rimraf > glob > minimatch:
+        patched: '2016-06-21T21:29:28.282Z'
+    - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream > rimraf > glob > minimatch:
+        patched: '2016-06-21T21:29:28.282Z'
+    - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream-ignore > fstream > rimraf > glob > minimatch:
         patched: '2016-06-21T21:29:28.282Z'
 version: v1.5.0
 ignore:
@@ -54,3 +56,11 @@ ignore:
     - react-native > connect > serve-index > accepts > negotiator:
         reason: Remediation unavailable
         expires: '2016-07-21T21:28:53.867Z'
+  'npm:ws:20160104':
+    - react-native > ws:
+        reason: Such is life
+        expires: '2016-08-20T13:39:49.234Z'
+  'npm:ws:20160624':
+    - react-native > ws:
+        reason: Such is life
+        expires: '2016-08-20T13:39:49.234Z'

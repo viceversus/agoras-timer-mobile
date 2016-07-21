@@ -8,8 +8,10 @@ import App from './components/App'
 
 const instructions = 'Shake or press menu button for dev menu'
 
-const Root = () => (
-  <App instructions={instructions} />
-)
+function Root() {
+  return (
+    <App instructions={instructions} />
+  )
+}
 
 AppRegistry.registerComponent('App', () => Root)
