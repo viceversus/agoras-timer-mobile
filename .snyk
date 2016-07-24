@@ -1,12 +1,12 @@
 patch:
   'npm:ws:20160104':
     - react-native > ws:
-        patched: '2016-06-21T21:27:54.797Z'
+        patched: '2016-07-24T20:45:31.037Z'
   'npm:minimatch:20160620':
     - react-native > fbjs-scripts > babel > chokidar > readdirp > minimatch:
         patched: '2016-06-21T21:14:43.486Z'
       react-native > yeoman-generator > findup-sync > glob > minimatch:
-        patched: '2016-07-21T13:38:31.916Z'
+        patched: '2016-07-24T20:45:31.037Z'
     - react-native > yeoman-generator > findup-sync > glob > minimatch:
         patched: '2016-06-21T21:14:43.486Z'
     - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream-ignore > minimatch:
@@ -25,6 +25,16 @@ patch:
         patched: '2016-06-21T21:29:28.282Z'
     - react-native > fbjs-scripts > babel > chokidar > fsevents > node-pre-gyp > tar-pack > fstream-ignore > fstream > rimraf > glob > minimatch:
         patched: '2016-06-21T21:29:28.282Z'
+    - react-native > yeoman-generator > findup-sync > glob > minimatch:
+        patched: '2016-07-21T13:38:31.916Z'
+  'npm:tough-cookie:20160722':
+    - snyk > request > tough-cookie:
+        patched: '2016-07-24T20:45:31.037Z'
+  'npm:negotiator:20160616':
+    - react-native > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T20:45:31.037Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T20:45:31.037Z'
 version: v1.5.0
 ignore:
   'npm:minimatch:20160620':
@@ -62,5 +72,5 @@ ignore:
         expires: '2016-08-20T13:39:49.234Z'
   'npm:ws:20160624':
     - react-native > ws:
-        reason: Such is life
-        expires: '2016-08-20T13:39:49.234Z'
+        reason: No patch
+        expires: '2016-08-23T20:47:28.531Z'
