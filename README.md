@@ -11,7 +11,7 @@ Build your React Native app with Webpack and Babel.
 
 Simple asset pipeline for seed apps built with React Native. Uses Babel 6 for ES7 JavaScript transpilation with Stage 1 support, and Webpack as a dev server and module bundler. Provides static code linting using ESLint and build output in the same console window, and Source Maps for debugging in the browser. Unprescriptive in terms of test frameworks and Flux implementations. Additional features listed below.
 
-This kit was originally used to build and ship, and later extracted from, [Lumpen Radio](https://github.com/jhabdas/lumpen-radio) early in the RN lifecycle. For a list of other React Native boilerplates, check out [Awesome React Boilerplates](http://habd.as/awesome-react-boilerplates/#react-native).
+> This kit was originally used to build and ship, and later extracted from, [Lumpen Radio](https://github.com/jhabdas/lumpen-radio) early in the RN lifecycle. While it is still useful as a model for simplicity, I strongly encourage visitors to check out some of the other [Awesome React Native Boilerplates](http://habd.as/awesome-react-boilerplates/#react-native).
 
 ## Features
 
