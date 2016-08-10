@@ -1,5 +1,5 @@
 {
-  "name": "react-native-webpack-starter-kit",
+  "name": "agoras_timer",
   "version": "0.1.0",
   "description": "Build your React Native with Webpack and Babel.",
   "author": "Josh Habdas <jhabdas@gmail.com> (http://habd.as)",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "react": "^15.1.0",
-    "react-native": "^0.28.0",
+    "react-native": "^0.29.2",
     "snyk": "^1.14.3"
   },
   "devDependencies": {

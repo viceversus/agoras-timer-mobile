@@ -1,3 +1,3 @@
-rootProject.name = 'App'
+rootProject.name = 'agoras_timer'
 
 include ':app'
